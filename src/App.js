@@ -1,34 +1,99 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './grid.css';
+import './style.css';
+import Post from "./Post";
 function App() {
   return (
-    <main>
-      <header>
-        <a href="" className="logo">Myblog</a>
-        <nav>
-          <a href="">Login</a>
-          <a href="">Register</a>
-        </nav>
-      </header>
-      <div className="Post">
-        <img src="https://techcrunch.com/wp-content/uploads/2024/02/cake-kalk-motorcycle.jpg?w=430&h=230&crop=1"></img>
-        <h2>Motional loses a backer, another micromobility bankruptcy and a mobility startup unicorn is born</h2>
-        <p> The startup, founded and run by Ritu Narayan, raised $140 million in a Series E funding round led by global investment firm GIC. Other investors included Climate Investment, Sequoia and SoftBank Vision Fund 2. The funding pushed its valuation to $1.3 billion
+    // <main>
+    //   <header>
+    //     <a href="" className="logo">Myblog</a>
+    //     <nav>
+    //       <a href="">Login</a>
+    //       <a href="">Register</a>
+    //     </nav>
+    //   </header>
+    //   <Post />
+      
+    // </main>
+    
+    <div>
+      <header class="header-area">
+        <div class="topnav" id="myTopnav">
+            <div class="container">
+                
+                {/* <a href="index.html" class="logo"><img src="assets/images/logo.png" class="nav-logo-img" alt=""><</a> */}
+                <a href="blogs.html">Bangladesh</a>
+                <a href="blogs.html">International</a>
+                <a href="blogs.html">Sports</a>
+                <a href="blogs.html">Opinion</a>
+                <a href="blogs.html">Business</a>
+                <a href="blogs.html">Youth</a>
+                <a href="blogs.html">Entertainment</a>
+                <a href="blogs.html">Lifestyle</a>
+                <a href="login.html">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
 
-          Zūm has made headway in the past several years, locking in school district customers in San Francisco, Los Angeles, Oakland, Seattle, Chicago, Boston, Nashville and Maryland. Now it’s focused on converting its fleet of vehicles to all EVs by 2027 while continuing to grow its footprint.
+    <footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                {/* <img src="assets/images/logo.png" class="img-responsive" alt=""> </img> */}
+                <p class="site-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quia ad sint ullam obcaecati
+                    ducimus nisi voluptates itaque molestias alias!
+                </p>
+                <div class="social-links">
+                    <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://skype.com" class="google-plus"><i class="fa fa-skype"></i></a>
+                    <a href="https://linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
 
-          Other deals that got my attention …
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="footer-link-title">Site Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bangladesh</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Business</a></li>
 
-          BluSmart, an Indian ride-hailing startup that competes with Uber and homegrown rival Ola, raised $25 million from Switzerland-headquartered impact fund ResponsAbility in a mezzanine structure, including partial equity dilution and debt.
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="footer-link-title">Site Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bangladesh</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Business</a></li>
 
-          OK so this isn’t so much a deal, as a dealbreaker. Cake, the Swedish electric motorcycle startup, filed for bankruptcy February 1 after failing to secure enough investment. Cake joins a growing list of micromobility companies that have run into financial trouble over the past year, most recently VanMoof, Superpedestrian and Bird.
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="footer-link-title">Site Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bangladesh</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Business</a></li>
 
-          Kura, a UK startup that combined a school bus service with a software platform to safeguard pupils, was acquired by “smart buses” startup Zeelo.
-        </p>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="copyright-text">© Copyright <a href="#">TopNews</a>. All Rights Reserved</div>
+        </div>
+    </div>
 
-      </div>
-    </main>
+</footer>
+</div>
   );
 }
 
