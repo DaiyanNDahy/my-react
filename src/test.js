@@ -1,77 +1,41 @@
-<section class="featured-posts-area">
-            <div class="container">
-                <a href="#" class="featured-header-link">
-                    <h3 class="featured-header">International</h3> <i class="fa fa-chevron-right"></i>
-                </a>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="post-card">
-                            <a href="#">
-                                <img src="assets/images/student-movement.jpeg" alt=""/>
-                                <div class="post-container">
-                                    <h3 class="post-header">Students take to streets again with 11-point demand</h3>
-                                    <p class="post-excerpt">Demonstrating students from several educational institutions
-                                        of
-                                        the
-                                        capital again took to the streets for safe roads and a few other demands in the
-                                        capital’s Rampura on Friday.
-                                    </p>
-                                    <p class="upload-time">5 mins ago...</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="post-card">
-                            <a href="#">
-                                <img src="assets/images/football.jpeg" alt=""/>
-                                <div class="post-container">
-                                    <h3 class="post-header">Students take to streets again with 11-point demand</h3>
-                                    <p class="post-excerpt">Demonstrating students from several educational institutions
-                                        of
-                                        the
-                                        capital again took to the streets for safe roads and a few other demands in the
-                                        capital’s Rampura on Friday.
-                                    </p>
-                                    <p class="upload-time">5 mins ago...</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="post-card">
-                            <a href="#">
-                                <img src="assets/images/ghurnijor.jpg" alt=""/>
-                                <div class="post-container">
-                                    <h3 class="post-header">Students take to streets again with 11-point demand</h3>
-                                    <p class="post-excerpt">Demonstrating students from several educational institutions
-                                        of
-                                        the
-                                        capital again took to the streets for safe roads and a few other demands in the
-                                        capital’s Rampura on Friday.
-                                    </p>
-                                    <p class="upload-time">5 mins ago...</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="post-card">
-                            <a href="#">
-                                <img src="assets/images/student-movement.jpeg" alt=""/>
-                                <div class="post-container">
-                                    <h3 class="post-header">Students take to streets again with 11-point demand</h3>
-                                    <p class="post-excerpt">Demonstrating students from several educational institutions
-                                        of
-                                        the
-                                        capital again took to the streets for safe roads and a few other demands in the
-                                        capital’s Rampura on Friday.
-                                    </p>
-                                    <p class="upload-time">5 mins ago...</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+<main class="main-area">
+    <div class="container">
+        <section id="login-area" class="login-area">
+            <h2>Login</h2>
+            <form action="" class="login-form">
+                <div class="username-area">
+                    <label for="username">Username or Email</label><br />
+                    <input type="text" class="username" id="username" />
                 </div>
-            </div>
+                <div class="password-area">
+                    <label for="password">Password</label><br />
+                    <input type="password" class="password" id="password" />
+                </div>
+                <button class="btn">Login</button>
+            </form>
+            <a href="javascript:void(0)" id="go-signup" class="go-signup">Or,SignUp</a>
+
         </section>
+        <section id="signup-area" class="signup-area">
+            <h2>Signup</h2>
+            <form action="" class="login-form">
+                <div class="username-area">
+                    <label for="username">Username or Email</label><br />
+                    <input type="text" class="username" id="username" />
+                </div>
+                <div class="password-area">
+                    <label for="password">Password</label><br />
+                    <input type="password" class="password" id="password" />
+                </div>
+                <div class="password-area">
+                    <label for="confirm-password">Confirm Password</label><br />
+                    <input type="password" class="password" id="confirm-password" />
+                </div>
+                <button class="btn">SignUp</button>
+            </form>
+            <a href="javascript:void(0)" id="go-login" class="go-login">Or,login</a>
+
+        </section>
+    </div>
+
+</main>
