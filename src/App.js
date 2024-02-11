@@ -1,100 +1,260 @@
-import logo from './logo.svg';
 import './grid.css';
 import './style.css';
+import Header from './header';
 import Post from "./Post";
+import Footer from './footer';
+import {Route,Routes} from "react-router-dom";
 function App() {
-  return (
-    // <main>
-    //   <header>
-    //     <a href="" className="logo">Myblog</a>
-    //     <nav>
-    //       <a href="">Login</a>
-    //       <a href="">Register</a>
-    //     </nav>
-    //   </header>
-    //   <Post />
-      
-    // </main>
-    
-    <div>
-      <header class="header-area">
-        <div class="topnav" id="myTopnav">
-            <div class="container">
-                
-                {/* <a href="index.html" class="logo"><img src="assets/images/logo.png" class="nav-logo-img" alt=""><</a> */}
-                <a href="blogs.html">Bangladesh</a>
-                <a href="blogs.html">International</a>
-                <a href="blogs.html">Sports</a>
-                <a href="blogs.html">Opinion</a>
-                <a href="blogs.html">Business</a>
-                <a href="blogs.html">Youth</a>
-                <a href="blogs.html">Entertainment</a>
-                <a href="blogs.html">Lifestyle</a>
-                <a href="login.html">Login</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </div>
-    </header>
+    return (
+        // <main>
+        //   <header>
+        //     <a href="" className="logo">Myblog</a>
+        //     <nav>
+        //       <a href="">Login</a>
+        //       <a href="">Register</a>
+        //     </nav>
+        //   </header>
+        //   <Post />
 
-    <footer class="footer-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-                {/* <img src="assets/images/logo.png" class="img-responsive" alt=""> </img> */}
-                <p class="site-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quia ad sint ullam obcaecati
-                    ducimus nisi voluptates itaque molestias alias!
-                </p>
-                <div class="social-links">
-                    <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="https://facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="https://instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="https://skype.com" class="google-plus"><i class="fa fa-skype"></i></a>
-                    <a href="https://linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                </div>
+        // </main>
 
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <h3 class="footer-link-title">Site Links</h3>
-                <ul class="footer-links">
-                    <li><a href="#">Bangladesh</a></li>
-                    <li><a href="#">International</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Business</a></li>
+             <Routes>
+                 <Route index element = {
+                    <body>
+                    <Header />
+                    <main class="main-area">
+                        <section class="featured-posts-area">
+                            <div class="container">
+                                <a href="#" class="featured-header-link">
+                                    <h3 class="featured-header">Bangladesh</h3> <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="featured-posts-area">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="#" class="featured-header-link">
+                                            <h3 class="featured-header2">Health</h3> <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                        <div class="post-card">
+                                            <a href="single.html">
+                                                <img src="assets/images/student-movement.jpeg" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="#" class="featured-header-link">
+                                            <h3 class="featured-header2">Food</h3> <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                        <div class="post-card">
+                                            <a href="single.html">
+                                                <img src="assets/images/student-movement.jpeg" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="#" class="featured-header-link">
+                                            <h3 class="featured-header2">Sports</h3> <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <a href="#" class="featured-header-link">
+                                            <h3 class="featured-header2">Analysis</h3> <i class="fa fa-chevron-right"></i>
+                                        </a>
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                            <hr />
+                                            <a href="#">
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </section>
+                        <section class="featured-posts-area">
+                            <div class="container">
+                                <a href="#" class="featured-header-link">
+                                    <h3 class="featured-header">International</h3> <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <Post />
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="featured-posts-area">
+                            <div class="container">
+                                <a href="#" class="featured-header-link">
+                                    <h3 class="featured-header">More News</h3> <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                                        <div class="post-card">
+                                            <a href="#">
+                                                <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
+                                                <div class="post-container">
+                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <p class="upload-time">Just Now...</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+        
+                    </main>
+                    <Footer />
+                    </body>
 
-                </ul>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <h3 class="footer-link-title">Site Links</h3>
-                <ul class="footer-links">
-                    <li><a href="#">Bangladesh</a></li>
-                    <li><a href="#">International</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Business</a></li>
-
-                </ul>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <h3 class="footer-link-title">Site Links</h3>
-                <ul class="footer-links">
-                    <li><a href="#">Bangladesh</a></li>
-                    <li><a href="#">International</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Business</a></li>
-
-                </ul>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="copyright-text">© Copyright <a href="#">TopNews</a>. All Rights Reserved</div>
-        </div>
-    </div>
-
-</footer>
-</div>
-  );
+                 } />
+             </Routes>
+    );
 }
 
 export default App;
