@@ -67,7 +67,7 @@ function App() {
                                             <hr />
                                             <a href="#">
                                                 <div class="post-container">
-                                                    <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                                    <h4 class="post-header">Students take to streets agains with 11-point demand</h4>
                                                 </div>
                                             </a>
                                         </div>
