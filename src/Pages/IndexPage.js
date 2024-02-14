@@ -1,127 +1,127 @@
 import Post from "../Post";
 export default function IndexPage() {
     return (
-        <main class="main-area">
-            <section class="featured-posts-area">
-                <div class="container">
-                    <a href="#" class="featured-header-link">
-                        <h3 class="featured-header">Bangladesh</h3> <i class="fa fa-chevron-right"></i>
+        <main className="main-area">
+            <section className="featured-posts-area">
+                <div className="container">
+                    <a href="#" className="featured-header-link">
+                        <h3 className="featured-header">Bangladesh</h3> <i className="fa fa-chevron-right"></i>
                     </a>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="featured-posts-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="featured-header-link">
-                                <h3 class="featured-header2">Health</h3> <i class="fa fa-chevron-right"></i>
+            <section className="featured-posts-area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" className="featured-header-link">
+                                <h3 className="featured-header2">Health</h3> <i className="fa fa-chevron-right"></i>
                             </a>
-                            <div class="post-card">
+                            <div className="post-card">
                                 <a href="single.html">
                                     <img src="assets/images/student-movement.jpeg" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets agains with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets agains with 11-point demand</h4>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="featured-header-link">
-                                <h3 class="featured-header2">Food</h3> <i class="fa fa-chevron-right"></i>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" className="featured-header-link">
+                                <h3 className="featured-header2">Food</h3> <i className="fa fa-chevron-right"></i>
                             </a>
-                            <div class="post-card">
+                            <div className="post-card">
                                 <a href="single.html">
                                     <img src="assets/images/student-movement.jpeg" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="featured-header-link">
-                                <h3 class="featured-header2">Sports</h3> <i class="fa fa-chevron-right"></i>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" className="featured-header-link">
+                                <h3 className="featured-header2">Sports</h3> <i className="fa fa-chevron-right"></i>
                             </a>
-                            <div class="post-card">
+                            <div className="post-card">
                                 <a href="#">
                                     <img src="assets/images/student-movement.jpeg" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <a href="#" class="featured-header-link">
-                                <h3 class="featured-header2">Analysis</h3> <i class="fa fa-chevron-right"></i>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <a href="#" className="featured-header-link">
+                                <h3 className="featured-header2">Analysis</h3> <i className="fa fa-chevron-right"></i>
                             </a>
-                            <div class="post-card">
+                            <div className="post-card">
                                 <a href="#">
                                     <img src="assets/images/student-movement.jpeg" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                                 <hr />
                                 <a href="#">
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
                                     </div>
                                 </a>
                             </div>
@@ -130,95 +130,95 @@ export default function IndexPage() {
                 </div>
 
             </section>
-            <section class="featured-posts-area">
-                <div class="container">
-                    <a href="#" class="featured-header-link">
-                        <h3 class="featured-header">International</h3> <i class="fa fa-chevron-right"></i>
+            <section className="featured-posts-area">
+                <div className="container">
+                    <a href="#" className="featured-header-link">
+                        <h3 className="featured-header">International</h3> <i className="fa fa-chevron-right"></i>
                     </a>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <Post />
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="featured-posts-area">
-                <div class="container">
-                    <a href="#" class="featured-header-link">
-                        <h3 class="featured-header">More News</h3> <i class="fa fa-chevron-right"></i>
+            <section className="featured-posts-area">
+                <div className="container">
+                    <a href="#" className="featured-header-link">
+                        <h3 className="featured-header">More News</h3> <i className="fa fa-chevron-right"></i>
                     </a>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                            <div class="post-card">
+                        <div className="col-12 col-sm-6 col-md-3 col-lg-2">
+                            <div className="post-card">
                                 <a href="#">
-                                    <img src="assets/images/student-movement.jpeg" class="more-news-img" alt="" />
-                                    <div class="post-container">
-                                        <h4 class="post-header">Students take to streets again with 11-point demand</h4>
-                                        <p class="upload-time">Just Now...</p>
+                                    <img src="assets/images/student-movement.jpeg" className="more-news-img" alt="" />
+                                    <div className="post-container">
+                                        <h4 className="post-header">Students take to streets again with 11-point demand</h4>
+                                        <p className="upload-time">Just Now...</p>
                                     </div>
                                 </a>
                             </div>

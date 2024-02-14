@@ -15,18 +15,18 @@ export default function Post() {
     //     </p>
     //   </div>
     // </div>
-    <div class="post-card">
+    <div className="post-card">
       <a href="single.html">
         <img src={borisImg} alt="" />
-        <div class="post-container">
-          <h3 class="post-header">Students take to streets again with 11-point demand</h3>
-          <p class="post-excerpt">Demonstrating students from several educational institutions
+        <div className="post-container">
+          <h3 className="post-header">Students take to streets again with 11-point demand</h3>
+          <p className="post-excerpt">Demonstrating students from several educational institutions
             of
             the
             capital again took to the streets for safe roads and a few other demands in the
             capital’s Rampura on Friday.
           </p>
-          <p class="upload-time">5 mins ago...</p>
+          <p className="upload-time">5 mins ago...</p>
         </div>
       </a>
     </div>

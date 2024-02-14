@@ -1,4 +1,4 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 a{
@@ -69,13 +69,13 @@ div.post p.info a.author{
 div.post p.summary{
   margin:10px 0;
   line-height: 1.8rem;
-}
+} */
 
-form.login, form.register{
+.cp form.login, form.register{
   max-width: 400px;
   margin: 0 auto;
 }
-input{
+.cp input{
   display: block;
   margin-bottom: 5px;
   width: 100%;
@@ -84,7 +84,7 @@ input{
   border-radius: 5px;
   background-color: #fff;
 }
-button{
+.cp button{
   cursor: pointer;
   width: 100%;
   display: block;
@@ -94,11 +94,11 @@ button{
   border-radius: 5px;
   padding: 7px 0;
 }
-form.login h1, form.register h1{
+.cp form.login h1, form.register h1{
   text-align: center;
 }
 
-div.post-page div.image{
+/* div.post-page div.image{
   max-height:300px;
   display: flex;
   overflow:hidden;
@@ -135,7 +135,7 @@ div.content p{
 }
 div.content li{
   margin-bottom: 10px;
-}
+} 
 div.edit-row{
   text-align: center;
   margin-bottom: 20px;
@@ -152,4 +152,4 @@ div.post-page a.edit-btn{
 }
 a svg{
   height:20px;
-}
+} */
